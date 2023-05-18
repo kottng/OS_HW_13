@@ -21,7 +21,6 @@ int main(void) {
                     printf("Достигнута глубина рекурсии: %d\n", depth);
                     break;
                 }
-                fclose(file);
                 printf("Текущая глубина рекурсии: %d\n", depth + 1);
         }
         for (int i = 0; i < depth; ++i) {
